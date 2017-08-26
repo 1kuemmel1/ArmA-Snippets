@@ -6,7 +6,7 @@
 // Gegenstand platzieren und folgendes in die Init einfügen:
 
 this addAction ["<t size='1.3' color='#00c700'><img image='\a3\ui_f\data\igui\cfg\Actions\unloadAllVehicles_ca.paa' size='1.3'/> Fahrzeug entfernen</t>",
-  {     private _vehs = (getPosWorld del_pad01) nearEntities [["Car", "Motorcycle", "Tank", "Air"], 6.5];
+  {     private _vehs = (getPos del_pad01) nearEntities [["Car", "Motorcycle", "Tank", "Air"], 6.5];
         if (count _vehs isEqualTo 0) exitWith {hint "Nichts zum entfernen in der Nähe."};
         private _veh = _vehs select 0;
         private _vehName = getText (configFile >> "cfgVehicles" >> typeOf _veh >> "displayName");
