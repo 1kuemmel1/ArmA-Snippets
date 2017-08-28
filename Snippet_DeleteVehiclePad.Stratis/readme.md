@@ -24,9 +24,8 @@ Anleitung (mit DeleteVeh_Script.sqf)
     0 = [MEIN_HELIPAD, OBJECT, ["TYPEN"], RADIUS, ZEIT, "ANGEZEIGTER TEXT"] execVM "DeleteVeh_Script.sqf";
 
     Beispiel:
-    ```sqf
     0 = [MEIN_HELIPAD, OBJECT, ["Ship","Tank","Car","Air"], 10, 10, ""<t size='"0".5' color='#00c700'>Fahrzeug entfernen</t>"] execVM "DeleteVeh_Script.sqf";
-    ```
+
 
 3.  Heli-Pad (oder ähnliches) platzieren und wie oben festgelegt benennen (Variablenname)
 
