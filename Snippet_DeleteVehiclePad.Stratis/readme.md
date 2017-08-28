@@ -21,9 +21,9 @@ Anleitung (mit DeleteVeh_Script.sqf)
     ```
 
   -erweiterter Befehl mit allen Parametern
-  
+   ```sqf
     0 = [MEIN_HELIPAD, OBJECT, ["TYPEN"], RADIUS, ZEIT, "ANGEZEIGTER TEXT"] execVM "DeleteVeh_Script.sqf";
-
+   ```
     Beispiel:
     
     ```sqf
