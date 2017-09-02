@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ADV_Towing">
+		<Package name="Actions">
+			<Key ID="STR_KE_ADV_TOWING_A_ATTACH">
+				<Original>Attach To Tow Ropes</Original>
+				<English>Attach To Tow Ropes</English>
+				<German>Abschleppseil anbringen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_A_DROP">
+				<Original>Drop Tow Ropes</Original>
+				<English>Drop Tow Ropes</English>
+				<German>Abschleppseil fallen lassen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_A_REMOVE">
+				<Original>Remove Tow Ropes</Original>
+				<English>Remove Tow Ropes</English>
+				<German>Abschleppseil entfernen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_A_PUTAWAY">
+				<Original>Put Away Tow Ropes</Original>
+				<English>Put Away Tow Ropes</English>
+				<German>Abschleppseil verstauen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_A_PICKUP">
+				<Original>Pickup Tow Ropes</Original>
+				<English>Pickup Tow Ropes</English>
+				<German>Abschleppseil aufnehmen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_A_DEPOLY">
+				<Original>Deploy Tow Ropes</Original>
+				<English>Deploy Tow Ropes</English>
+				<German>Abschleppseil nehmen</German>
+			</Key>
+		</Package>
+		<Package name="Hints">
+			<Key ID="STR_KE_ADV_TOWING_ROPETOOSHORT">
+				<Original>The tow ropes are too short. Move vehicle closer.</Original>
+				<English>The tow ropes are too short. Move vehicle closer.</English>
+        <German>Das Abschleppseil ist zu kurz. Du musst mit dem Fahrzeug näher ran.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_ROPESTILLATT">
+				<Original>Cannot put Ropes away because they are still attached</Original>
+				<English>Cannot put Ropes away because they are still attached</English>
+				<German>Das Abschleppseil kann nicht verstaut werden, da es immer noch befestigt ist</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED">
+				<Original>Cannot attach tow ropes to locked vehicle</Original>
+				<English>Cannot attach tow ropes to locked vehicle</English>
+				<German>Abgeschlossene Fahrzeuge können nicht abgeschleppt werden.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED_TAKE">
+				<Original>Cannot take tow ropes from locked vehicle</Original>
+				<English>Cannot take tow ropes from locked vehicle</English>
+				<German>Abschleppseile von abgeschlossenen Fahrzeugen können nicht genommen werden.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED_PUTAWAY">
+				<Original>Cannot put away tow ropes in locked vehicle</Original>
+				<English>Cannot put away tow ropes in locked vehicle</English>
+				<German>Abschleppseile können nicht in verschlossenen Fahrzeugen untergebracht werden.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED_REMOVE">
+				<Original>Cannot remove tow ropes from locked vehicle</Original>
+				<English>Cannot remove tow ropes from locked vehicle</English>
+				<German>Abschleppseile können nicht von verschlossenen Fahrzeugen entfernt werden.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED_PICKUP">
+				<Original>Cannot pick up tow ropes from locked vehicle</Original>
+				<EnglishCannot pick up tow ropes from locked vehicle</English>
+				<German>Abschleppseile von verschlossenen Fahrzeugen können nicht aufgenommen werden.</German>
+			</Key>
+		</Package>
+</Project>

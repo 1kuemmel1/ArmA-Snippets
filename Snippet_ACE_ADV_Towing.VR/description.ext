@@ -1,0 +1,17 @@
+//------------------------- Mission Informations
+author = "Duda, kuemmel";
+onLoadName = "Advanced Towing Script";
+OnLoadMission = "Advanced Towing Script";
+
+//------------------------- Admin
+enableDebugConsole = 1;
+
+//------------------------- Misc
+disabledAI = 1;
+//------------------------- Respawn
+Respawn = 3;
+
+//------------------------- Functions
+class CfgFunctions {
+		#include "Towing\cfgfunctions.hpp"
+};
