@@ -1,2 +1,2 @@
 //init hearing protection actions
-_nil = execvM "KE_EarProtection_mount.sqf";
+[] call compileFinal preprocessfilelinenumbers "scripts\KE_EarProtection_mount.sqf";

@@ -28,18 +28,18 @@ private _statement_add = {
 };
 
 //ENG
-//private _action = ["KE_EarProHel_Remove","Remove hearing protection","",_statement_remove,_condition_remove] call ace_interact_menu_fnc_createAction;
+//private _action = ["KE_EarProHel_Remove","Remove hearing protection","scripts\data\KE_ear_p_off.paa",_statement_remove,_condition_remove] call ace_interact_menu_fnc_createAction;
 //GER
-private _action = ["KE_EarProHel_Remove","Gehörschutz entfernen","",_statement_remove,_condition_remove] call ace_interact_menu_fnc_createAction;
+private _action = ["KE_EarProHel_Remove","Gehörschutz entfernen","scripts\data\KE_ear_p_off.paa",_statement_remove,_condition_remove] call ace_interact_menu_fnc_createAction;
 
 //add action
 [player, 1, ["ACE_SelfActions","ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;
 
 
 //ENG
-//private _action = ["KE_EarProHel_Add","Apply hearing protection","",_statement_add,_condition_add] call ace_interact_menu_fnc_createAction;
+//private _action = ["KE_EarProHel_Add","Apply hearing protection","scripts\data\KE_ear_p_on.paa",_statement_add,_condition_add] call ace_interact_menu_fnc_createAction;
 //GER
-private _action = ["KE_EarProHel_Add","Gehörschutz anbringen","",_statement_add,_condition_add] call ace_interact_menu_fnc_createAction;
+private _action = ["KE_EarProHel_Add","Gehörschutz anbringen","scripts\data\KE_ear_p_on.paa",_statement_add,_condition_add] call ace_interact_menu_fnc_createAction;
 
 //add action
 [player, 1, ["ACE_SelfActions","ACE_Equipment"], _action] call ace_interact_menu_fnc_addActionToObject;

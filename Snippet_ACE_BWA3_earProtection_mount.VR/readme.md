@@ -7,8 +7,9 @@ Benötigte Mods:
   - BWA3
 
 Anleitung:
-  1. Die Datei "KE_EarProtection_mount.sqf" in den Missionsordner kopieren
+  1. Den Ordner "scripts" einfach in den Missionsordner kopieren
   2. In der Datei "initPlayerLocal.sqf" (wenn nicht vorhanden erstellen) folgendes eintragen:
       ```sqf
-      _nil = execvM "KE_EarProtection_mount.sqf";
+      [] call compileFinal preprocessfilelinenumbers "scripts\KE_EarProtection_mount.sqf";
+
       ```
