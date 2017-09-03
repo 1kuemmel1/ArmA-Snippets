@@ -1,4 +1,5 @@
 Simple add an action to ACE3 self menu to remove or add the ear protection for the Crewman KSK Helmet.
+
 Einfache Action für ACE3 den Gehörschutz ,des Crewman KSK-Helms, anzubringen oder zu entfernen.
 
 Benötigte Mods:
