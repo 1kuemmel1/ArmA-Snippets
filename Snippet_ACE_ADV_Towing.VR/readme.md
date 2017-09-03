@@ -9,7 +9,7 @@ Was ich geändert habe:
   - Stringtable.xml Nutzung (ENG/DE)
   - mehrer kleine Anpassungen
 
-Beschreibung
+Beschreibung:
 Das Script fügt eine Action hinzu die es dem Spieler ermöglicht Fahrzeuge abzuschleppen.
 
 Benötigte Mods:
