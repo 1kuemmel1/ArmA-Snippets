@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project name="ADV_Towing">
+<Project name="ADV_Towing_Script_KE">
 		<Package name="Actions">
 			<Key ID="STR_KE_ADV_TOWING_A_ATTACH">
 				<Original>Attach To Tow Ropes</Original>
