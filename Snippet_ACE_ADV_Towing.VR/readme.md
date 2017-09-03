@@ -30,6 +30,7 @@ class CfgFunctions {
 [] call compileFinal preprocessfilelinenumbers "Towing\init.sqf";
 ```
 4. Die Datein "stringtable.xml" in den Missionsordner Kopieren (ACHTUNG: ggf. nur den Inhalt der Datei kopieren, wenn diese schon vorhanden ist)
+
 5. (Optional) Für ein paar Einstellungsmöglichkeiten folgendes in die "Init.sqf" eintragen und ggf. anpassen:
 ```sqf
 //settings for AdvancedTowing Script
