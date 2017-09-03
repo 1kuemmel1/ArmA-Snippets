@@ -65,7 +65,7 @@
 			</Key>
 			<Key ID="STR_KE_ADV_TOWING_VEHLOCKED_PICKUP">
 				<Original>Cannot pick up tow ropes from locked vehicle</Original>
-				<EnglishCannot pick up tow ropes from locked vehicle</English>
+				<English>Cannot pick up tow ropes from locked vehicle</English>
 				<German>Abschleppseile von verschlossenen Fahrzeugen können nicht aufgenommen werden.</German>
 			</Key>
 		</Package>
