@@ -1,0 +1,22 @@
+//------------------------- Mission Informations
+author = "Duda, kuemmel";
+onLoadName = "Advanced (Urban) Rappelling Script";
+OnLoadMission = "Advanced (Urban) Rappelling Script";
+
+//------------------------- Admin
+enableDebugConsole = 1;
+
+//------------------------- Misc
+disabledAI = 1;
+//------------------------- Respawn
+Respawn = 3;
+
+//------------------------- Functions
+class CfgFunctions {
+		#include "Rappelling\cfgfunctions.hpp"
+};
+
+//------------------------- Sounds
+class CfgSounds	{
+		#include "Rappelling\cfgSounds.hpp"
+	};
