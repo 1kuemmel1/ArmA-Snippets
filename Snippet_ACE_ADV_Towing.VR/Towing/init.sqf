@@ -4,19 +4,19 @@ private	_action =	["KE_Towing_Deploy_Main",(localize "STR_KE_ADV_TOWING_A_DEPOLY
   ["Tank", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
   ["Ship", 0, ["ACE_MainActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
 
-  private	_action =	["KE_Towing_Deploy","5m","",{_this call SA_Take_Tow_Ropes_Action_5;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
+  private	_action =	["KE_Towing_Deploy_5m","5m","",{_this call SA_Take_Tow_Ropes_Action_5;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
     ["Car", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Tank", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Ship", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-  private	_action =	["KE_Towing_Deploy","10m","",{_this call SA_Take_Tow_Ropes_Action;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
+  private	_action =	["KE_Towing_Deploy_10m","10m","",{_this call SA_Take_Tow_Ropes_Action;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
     ["Car", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Tank", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Ship", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-  private	_action =	["KE_Towing_Deploy","15m","",{_this call SA_Take_Tow_Ropes_Action_15;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
+  private	_action =	["KE_Towing_Deploy_15m","15m","",{_this call SA_Take_Tow_Ropes_Action_15;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
     ["Car", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Tank", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Ship", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
-  private	_action =	["KE_Towing_Deploy","20m","",{_this call SA_Take_Tow_Ropes_Action_20;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
+  private	_action =	["KE_Towing_Deploy_20m","20m","",{_this call SA_Take_Tow_Ropes_Action_20;},{_this call SA_Take_Tow_Ropes_Action_Check;}] call ace_interact_menu_fnc_createAction;
     ["Car", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Tank", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
     ["Ship", 0, ["ACE_MainActions","KE_Towing_Deploy_Main"], _action, true] call ace_interact_menu_fnc_addActionToClass;
