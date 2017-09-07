@@ -18,7 +18,7 @@ Benötigte Mods:
 
 ----------------------------------------------------------------------------------------------
 Anleitung:
-1. Ordner "Towing" in dem Missionordner kopieren
+1. Den Ordner "Towing" in dem Missionordner kopieren
 2. In der "description.ext" folgendes eintragen:
 ```sqf
 class CfgFunctions {
