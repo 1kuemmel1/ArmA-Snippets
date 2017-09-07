@@ -28,4 +28,4 @@ class CfgFunctions {
 ```sqf
 [] call compileFinal preprocessfilelinenumbers "BoC_Main\init.sqf";
 ```
-4. Die Datein "stringtable.xml" in den Missionsordner Kopieren (ACHTUNG: ggf. nur den Inhalt der Datei kopieren, wenn diese schon vorhanden ist)
+4. Die Datei "stringtable.xml" in den Missionsordner Kopieren (ACHTUNG: ggf. nur den Inhalt der Datei kopieren, wenn diese schon vorhanden ist)
