@@ -7,5 +7,5 @@ _SA_TOW_LOCKED_VEHICLES_ENABLED = true;        //allow or disallow towing of loc
 //--- DO NOT EDIT BELOW --- START//
 missionNamespace setVariable ["SA_TOW_LOCKED_VEHICLES_ENABLED", _SA_TOW_LOCKED_VEHICLES_ENABLED, true];
 missionNamespace setVariable ["SA_MAX_TOWED_CARGO", _SA_MAX_TOWED_CARGO, true];
-missionNamespace setVariable ["_SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", _SA_TOW_SUPPORTED_VEHICLES_OVERRIDE, true];
+//missionNamespace setVariable ["_SA_TOW_SUPPORTED_VEHICLES_OVERRIDE", _SA_TOW_SUPPORTED_VEHICLES_OVERRIDE, true];
 //--- DO NOT EDIT ABOVE --- END//
