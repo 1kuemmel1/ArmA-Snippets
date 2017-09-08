@@ -19,6 +19,7 @@ Benötigte Mods:
 
 TODO:
 - stringtable.xml nutzen
+- den Code überarbeiten
 
 -------------------------------------------------------------------------------------------------
 
@@ -39,7 +40,7 @@ class CfgSounds	{
 [] call compileFinal preprocessfilelinenumbers "Rappelling\init.sqf";
 ```
 4. (Optional) Für ein paar Einstellungsmöglichkeiten folgendes in die "Init.sqf" eintragen und ggf. anpassen:
-```
+```sqf
 //--------------- Advanced Rappelling - Settings ------------------
 // Überschreibt die Liste der erlauben Helikopter für das Abseilen
 //standart: alle Helikopter werden unterstützt (Mod-Helikpoter können davon abweichen)
@@ -64,21 +65,12 @@ _AP_CUSTOM_RAPPEL_POINTS = [
 */
 
 //--- DO NOT EDIT BELOW --- START//
-if (!isNil "_AR_DISABLE_AI") then {
-  missionNamespace setVariable ["AR_DISABLE_AI", _AR_DISABLE_AI, true];
-};
-if (!isNil "_AUR_DISABLE_AI") then {
-  missionNamespace setVariable ["AUR_DISABLE_AI", _AR_DISABLE_AI, true];
-};
-if (!isNil "_AR_SUPPORTED_VEHICLES_OVERRIDE") then {
-  missionNamespace setVariable ["AR_SUPPORTED_VEHICLES_OVERRIDE", _AR_SUPPORTED_VEHICLES_OVERRIDE, true];
-};
-if (!isNil "_AR_MAX_RAPPEL_POINTS_OVERRIDE") then {
-  missionNamespace setVariable ["AR_MAX_RAPPEL_POINTS_OVERRIDE", _AR_MAX_RAPPEL_POINTS_OVERRIDE, true];
-};
-if (!isNil "_AP_CUSTOM_RAPPEL_POINTS") then {
-  missionNamespace setVariable ["AP_CUSTOM_RAPPEL_POINTS", _AP_CUSTOM_RAPPEL_POINTS, true];
-};
+#define IF_ISNIL_SET(VAR1,VAR2) if (!isNil #VAR1) then {missionNamespace setVariable [VAR2, VAR1, true];};
+IF_ISNIL_SET(_AR_DISABLE_AI,"AR_DISABLE_AI")
+IF_ISNIL_SET(_AR_DISABLE_AI,"AR_DISABLE_AI")
+IF_ISNIL_SET(_AR_SUPPORTED_VEHICLES_OVERRIDE,"AR_SUPPORTED_VEHICLES_OVERRIDE")
+IF_ISNIL_SET(_AR_MAX_RAPPEL_POINTS_OVERRIDE,"AR_MAX_RAPPEL_POINTS_OVERRIDE")
+IF_ISNIL_SET(_AP_CUSTOM_RAPPEL_POINTS,"AP_CUSTOM_RAPPEL_POINTS")
 //--- DO NOT EDIT ABOVE --- END//
 ```
 
