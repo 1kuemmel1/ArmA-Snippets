@@ -651,16 +651,16 @@ AR_SUPPORTED_VEHICLES = [
 
 AR_Is_Supported_Vehicle = {
 	params ["_vehicle",["_isSupported", false]];
-	//_isSupported = false;
+	_isSupported = false;
 	if(!isNull _vehicle) then {
 		{
-			if(_vehicle isKindOf _x) then {
+			if(_vehicle isKindOf _x) exitWith {
 				_isSupported = true;
 			};
 			false
 		} count (missionNamespace getVariable ["AR_SUPPORTED_VEHICLES_OVERRIDE",AR_SUPPORTED_VEHICLES]);
 	};
-	_isSupported;
+	_isSupported
 };
 
 AR_Hint = {
