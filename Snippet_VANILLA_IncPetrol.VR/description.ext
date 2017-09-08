@@ -1,0 +1,12 @@
+//------------------------- Mission Informations
+author = "kuemmel";
+onLoadName = "Increased fuel consumption script";
+OnLoadMission = "Increased fuel consumption script";
+
+//------------------------- Admin
+enableDebugConsole = 1;
+
+//------------------------- Misc
+disabledAI = 1;
+//------------------------- Respawn
+Respawn = 3;
