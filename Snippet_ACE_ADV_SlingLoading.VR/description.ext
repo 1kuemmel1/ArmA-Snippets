@@ -1,0 +1,17 @@
+//------------------------- Mission Informations
+author = "Duda, kuemmel";
+onLoadName = "Advanced Sling Loading Script";
+OnLoadMission = "Advanced Sling Loading Script";
+
+//------------------------- Admin
+enableDebugConsole = 1;
+
+//------------------------- Misc
+disabledAI = 1;
+//------------------------- Respawn
+Respawn = 3;
+
+//------------------------- Functions
+class CfgFunctions {
+		#include "SlingLoading\cfgfunctions.hpp"
+};

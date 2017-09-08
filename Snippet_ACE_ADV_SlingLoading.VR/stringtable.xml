@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ADV_Slingloading_Script_KE">
+		<Package name="Actions">
+			<Key ID="STR_KE_ADV_SL_A_MAIN">
+				<Original>Rope winch</Original>
+				<English>Rope winch</English>
+        <German>Seilwinde</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_DEPLOY_MAIN">
+				<Original>Deploy Cargo Ropes</Original>
+				<English>Deploy Cargo Ropes</English>
+        <German>Seil ablassen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_ATTACT">
+				<Original>Attach To Cargo Ropes</Original>
+				<English>Attach To Cargo Ropes</English>
+        <German>Transportseil anbringen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_DROP">
+				<Original>Drop Cargo Ropes</Original>
+				<English>Drop Cargo Ropes</English>
+        <German>Transportseil fallen lassen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_PICKUP">
+				<Original>Pickup Cargo Ropes</Original>
+				<English>Pickup Cargo Ropes</English>
+        <German>Transportseil aufnehmen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_REMOVE">
+				<Original>Remove Cargo Ropes</Original>
+				<English>Remove Cargo Ropes</English>
+        <German>Transportseil entfernen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_RETRACT">
+				<Original>Retract Cargo Ropes</Original>
+				<English>Retract Cargo Ropes</English>
+        <German>Transportseil einziehen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_EXTEND">
+				<Original>Extend Cargo Ropes</Original>
+				<English>Extend Cargo Ropes</English>
+        <German>Transportseil verlängern</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_SHORTEN">
+				<Original>Shorten Cargo Ropes</Original>
+				<English>Shorten Cargo Ropes</English>
+        <German>Transportseil kürzen</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_RELEASE">
+				<Original>Release Cargo</Original>
+				<English>Release Cargo</English>
+        <German>Fracht aushaken</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_FRONT">
+				<Original>Front</Original>
+				<English>Front</English>
+        <German>Vorn</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_CENTER">
+				<Original>Center</Original>
+				<English>Center</English>
+        <German>Mitte</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_REAR">
+				<Original>Rear</Original>
+				<English>Rear</English>
+        <German>Hinten</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_A_ALL">
+				<Original>All</Original>
+				<English>All</English>
+        <German>Alle</German>
+			</Key>
+		</Package>
+		<Package name="Hints">
+			<Key ID="STR_KE_ADV_SL_H_NOROPES">
+				<Original>Vehicle doesn't support cargo ropes</Original>
+				<English>Vehicle doesn't support cargo ropes</English>
+        <German>Das Fahrzeug hat keine Transportseile</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_H_ALLREADY_ACTIV">
+				<Original>Vehicle already has cargo ropes deployed</Original>
+				<English>Vehicle already has cargo ropes deployed</English>
+        <German>Transportseile sind bereits im Einsatz</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_H_VEHLOCKED">
+				<Original>Cannot deploy cargo ropes from locked vehicle</Original>
+				<English>Cannot deploy cargo ropes from locked vehicle</English>
+				<German>Transportseil kann nicht abgelassen werden, da das Fahrzeug verschlossen ist</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_H_TOOSHORT">
+				<Original>The cargo ropes are too short. Move vehicle closer.</Original>
+				<English>The cargo ropes are too short. Move vehicle closer.</English>
+				<German>Die Transportseile sind etwas zu kurz. Du musst näher ran.</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_H_VEHLOCKED_ATTACH">
+				<Original>Cannot attach cargo ropes to locked vehicle</Original>
+				<English>Cannot attach cargo ropes to locked vehicle</English>
+				<German>Transportseile können nicht anverschlossenen Fahrzeugen angebracht werden</German>
+			</Key>
+			<Key ID="STR_KE_ADV_SL_H_WRONGROPECOUNT">
+				<Original>Vehicle doesn't support %1 cargo ropes</Original>
+				<English>Vehicle doesn't support %1 cargo ropes</English>
+				<German>Das Fahrzeug unterstützt keine %1 Transportseil(e)</German>
+			</Key>
+		</Package>
+</Project>
