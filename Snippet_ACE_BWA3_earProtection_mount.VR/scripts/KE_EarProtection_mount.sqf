@@ -4,10 +4,10 @@ Simple add an action to ACE3 self menu to remove or add the ear protection for t
 Einfache Action für ACE3 den Gehörschutz ,des Crewman KSK-Helms, anzubringen oder zu entfernen.
 */
 private _condition_remove = {
-    (headgear player) in ["BWA3_CrewmanKSK_Fleck_Headset","BWA3_CrewmanKSK_Tropen_Headset"]
+    (headgear player) in ["BWA3_CrewmanKSK_Fleck_Headset","BWA3_CrewmanKSK_Tropen_Headset","BWA3_CrewmanKSK_Schwarz_Headset"]
 };
 private _condition_add = {
-    (headgear player) in ["BWA3_CrewmanKSK_Fleck","BWA3_CrewmanKSK_Tropen"]
+    (headgear player) in ["BWA3_CrewmanKSK_Fleck","BWA3_CrewmanKSK_Tropen","BWA3_CrewmanKSK_Schwarz"]
 };
 
 private _statement_remove = {
@@ -17,6 +17,9 @@ private _statement_remove = {
     if ((headgear player) isEqualTo "BWA3_CrewmanKSK_Tropen_Headset") then {
       player addHeadgear "BWA3_CrewmanKSK_Tropen";
     };
+    if ((headgear player) isEqualTo "BWA3_CrewmanKSK_Schwarz_Headset") then {
+      player addHeadgear "BWA3_CrewmanKSK_Schwarz";
+    };
 };
 private _statement_add = {
     if ((headgear player) isEqualTo "BWA3_CrewmanKSK_Fleck") then {
@@ -25,6 +28,9 @@ private _statement_add = {
     if ((headgear player) isEqualTo "BWA3_CrewmanKSK_Tropen") then {
       player addHeadgear "BWA3_CrewmanKSK_Tropen_Headset";
     };
+    if ((headgear player) isEqualTo "BWA3_CrewmanKSK_Schwarz") then {
+      player addHeadgear "BWA3_CrewmanKSK_Schwarz_Headset";
+    };    
 };
 
 //ENG
