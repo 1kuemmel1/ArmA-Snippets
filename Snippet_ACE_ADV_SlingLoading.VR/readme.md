@@ -1,3 +1,5 @@
+**ATTENTION: script is not finished/bug free!**
+
 Advanced Sling Loading Script
 
 ACHTUNG: Dieses Script basiert auf dem Mod: Advanced Sling Loading von sethduda (die ganze Ehre für die Erstellung geht and ihn)
