@@ -1,3 +1,5 @@
+**ATTENTION: script is not finished/bug free!**
+
 Advanced Rappelling Script
 
 ACHTUNG: Dieses Script basiert auf dem Mods: AdvancedRappelling und AdvancedUrbanRappelling von sethduda (die ganze Ehre für die Erstellung geht and ihn)
