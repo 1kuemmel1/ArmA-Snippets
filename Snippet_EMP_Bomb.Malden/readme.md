@@ -8,7 +8,7 @@
 *instructions:*
 
 	1. copy folder EMP_Bomb in your mission folder
-	2. put ```sqf [this,25000] call KE_EB_fnc_init; ``` in the init-field of your activation object (eg laptop)
+	2. put "[this,25000] call KE_EB_fnc_init;" in the init-field of your activation object (eg laptop)
 	3. start the game and use the ace interaction to acktivate the bomb
 
 *known bugs:*
