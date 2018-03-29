@@ -1,3 +1,5 @@
+**ATTENTION: script is not finished/bug free!**
+
 Advanced Towing Script
 
 ACHTUNG: Dieses Script basiert auf dem Mod : Advanced Towing von sethduda (die ganze Ehre für die Erstellung geht and ihn)
